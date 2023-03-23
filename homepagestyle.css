@@ -9,60 +9,62 @@ body{
 	background-color: #D0D5F7;
 	opacity: 0.92;
 	text-align: left;
-	height: 30px;
-	width: 1400px;
+	height: 80%;
+	width: 72%;
 	font-family: "Lucida Handwriting";
 	font-size: 40px;
 	align-items: center;
-	margin: 10px 200px 50px 200px;
-	padding: 20px 0px 50px 20px;
-	color: #4B0082 ;
-
-	
+	margin: 0 auto ;
+	padding: 20px 5px 20px 5px;
+	color: #4B0082;
 }
-.body {
+.body { 
 	background-color: #D0D5F7;
-	margin: 100px 200px 200px 200px;
-	padding: 20px;
+	margin: 75px auto 30px auto;
+	padding: 100px 5px 200px 5px;
 	opacity: 0.92;
-	height: 650px;
-	width: 1400px;
+	height: 150%;
+	width: 72%;
 	align-items: center;
 	display: flex;
+	
+}
+
+.navbar {
+	margin: 0px 10px 0px 0px;
+	background-color: #D0D5F7;
+	display: inline-block;
+	font-family: "Lucida Handwriting";
+	font-size: 18px;
+	padding: 10px 10px 10px 0px;
+	position: sticky; 
 }
 
 .body div {
-  	display: flex;
+	
   	flex: auto;
 }
 
+
 img {
-	width: 400px;
-	height:350px;
+	width: 250px;
+	height:200px;
 }
 
 ul a {
 	text-decoration: none;
 	color: #4B0082 ;
 }
-.tabs {
-	margin: 0px 30px 0px 30px;
-	display: block;
-	font-family: "Lucida Handwriting";
-	font-size: 25px;
-	padding: 10px 10px 10px 10px;
-}
 
 .intro {
-	margin: 0px 30px 0px 80px;
+	margin: 0px 10px 0px 10px;
 	font-family: "Lucida Handwriting";
 	font-size: 15px;
 	padding: 10px 10px 10px 10px;
 }
 
 .pic {
-	margin: 0px 50px 0px 120px;
-	padding: 10px 10px 10px 50px;
+	margin: 0px 20px 0px 20px;
+	padding: 10px 10px 10px 10px;
 }
-
 
