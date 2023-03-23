@@ -1,0 +1,68 @@
+body{
+	background-image: url("homebg.jpg");
+	background-size: cover;
+	background-position: center;
+	float:left;
+
+}
+.header {
+	background-color: #D0D5F7;
+	opacity: 0.92;
+	text-align: left;
+	height: 30px;
+	width: 1400px;
+	font-family: "Lucida Handwriting";
+	font-size: 40px;
+	align-items: center;
+	margin: 10px 200px 50px 200px;
+	padding: 20px 0px 50px 20px;
+	color: #4B0082 ;
+
+	
+}
+.body {
+	background-color: #D0D5F7;
+	margin: 100px 200px 200px 200px;
+	padding: 20px;
+	opacity: 0.92;
+	height: 650px;
+	width: 1400px;
+	align-items: center;
+	display: flex;
+}
+
+.body div {
+  	display: flex;
+  	flex: auto;
+}
+
+img {
+	width: 400px;
+	height:350px;
+}
+
+ul a {
+	text-decoration: none;
+	color: #4B0082 ;
+}
+.tabs {
+	margin: 0px 30px 0px 30px;
+	display: block;
+	font-family: "Lucida Handwriting";
+	font-size: 25px;
+	padding: 10px 10px 10px 10px;
+}
+
+.intro {
+	margin: 0px 30px 0px 80px;
+	font-family: "Lucida Handwriting";
+	font-size: 15px;
+	padding: 10px 10px 10px 10px;
+}
+
+.pic {
+	margin: 0px 50px 0px 120px;
+	padding: 10px 10px 10px 50px;
+}
+
+
