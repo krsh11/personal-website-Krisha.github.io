@@ -30,6 +30,7 @@ body{
 	color: #4B0082;
 	font-family: "Lucida Handwriting";
 	font-size: 20px;
+	
 }
 
 ul {
@@ -57,39 +58,23 @@ li a:hover:not(.active) {
 }
 .active {
   background-color: #000000;
-
 }
-.body { 
+
+.experience { 
 	background-color: #D0D5F7;
 	margin: 75px auto 30px auto;
-	padding: 50px 5px 150px 5px;
+	padding: 50px 5px 50px 5px;
 	opacity: 0.92;
-	height: 130%;
+	height: 200%;
 	width: 72%;	
 }
- .container {
- 	display: flex;
- }
 
-h3 {
-
-	font-family: "Lucida Handwriting";
-	font-size: 45px;
-	margin: 0 auto ;
-	padding: 20px 5px 20px 50px;
-	color: #4B0082;
+li.duties {
+	float: left;
+	display: block;
 }
 
-p {
-	margin: 0px 10px 0px 10px;
-	font-family: "Lucida Handwriting";
-	font-size: 15px;
-	padding: 50px 100px 10px 80px;
+ul.jobs {
+	background-color: #D0D5F7;
+	display: block;
 }
-
-img {
-	padding: 50px 100px 10px 10px;
-	width: 320px;
-	height: 300px;
-}
-
