@@ -30,6 +30,7 @@ body{
 	color: #4B0082;
 	font-family: "Lucida Handwriting";
 	font-size: 20px;
+	
 }
 
 ul {
@@ -59,55 +60,22 @@ li a:hover:not(.active) {
   background-color: #000000;
 
 }
-.body { 
+
+.projects{ 
 	background-color: #D0D5F7;
 	margin: 75px auto 30px auto;
-	padding: 50px 5px 150px 5px;
+	padding: 50px 5px 100px 50px;
 	opacity: 0.92;
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
 	height: 200%;
-=======
->>>>>>> Stashed changes
-	height: 130%;
-	width: 72%;	
->>>>>>> f3c232ac093a28526af168efdef5141216798b82
-}
-
-.title {
 	font-family: "Lucida Handwriting";
-	font-size: 45px;
-	margin: 0 auto ;
-	padding: 20px 5px 20px 50px;
-	color: #4B0082;
+	font-size: 18px;
 }
 
-.name {
-	font-size: 65px;
-	text-align: center;
-	font-family: "Lucida Handwriting";
-	margin: 0 auto ;
-	padding: 20px 5px 20px 5px;
-	color: #4B0082;
+.projects ul {
+	background-color: #D0D5F7;
+	
 }
 
-.body div {
-  	flex: auto;
+.projects li {
+	float: left;
 }
-
-.intro {
-	margin: 0px 10px 0px 10px;
-	font-family: "Lucida Handwriting";
-	font-size: 15px;
-	padding: 10px 150px 10px 150px;
-}
-
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-
-
-=======
->>>>>>> f3c232ac093a28526af168efdef5141216798b82
->>>>>>> Stashed changes

@@ -2,15 +2,17 @@ body{
 	background-image: url("homebg.jpg");
 	background-size: cover;
 	background-position: center;
-	float:left;
+	background-attachment: fixed;
+	margin: 10px auto ;
+	width: 72%;
 
 }
+
 .header {
 	background-color: #D0D5F7;
 	opacity: 0.92;
 	text-align: left;
 	height: 80%;
-	width: 72%;
 	font-family: "Lucida Handwriting";
 	font-size: 40px;
 	align-items: center;
@@ -24,7 +26,6 @@ body{
 	background-color: #333;;
 	opacity: 0.99;
 	margin: 0 auto;
-	width: 72%;
 	height: 80%;
 	padding: 0px 5px;
 	color: #4B0082;
@@ -58,23 +59,29 @@ li a:hover:not(.active) {
 }
 .active {
   background-color: #000000;
+
 }
 
 .experience { 
 	background-color: #D0D5F7;
 	margin: 75px auto 30px auto;
-	padding: 50px 5px 50px 5px;
+	padding: 50px 5px 100px 10px;
 	opacity: 0.92;
 	height: 200%;
-	width: 72%;	
+	
 }
 
-li.duties {
-	float: left;
-	display: block;
+.jobs {
+	margin: 0px 0px 0px 10px;
+	font-family: "Lucida Handwriting";
+	font-size: 15px;
+	padding: 10px 0px 10px 50px;
 }
 
-ul.jobs {
+.duties {
 	background-color: #D0D5F7;
 	display: block;
-}
+	padding: 10px 0px 10px 50px;
+	
+} 
+

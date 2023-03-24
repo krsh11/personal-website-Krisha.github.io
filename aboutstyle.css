@@ -1,16 +1,16 @@
 body{
-	background-image: url("homebg.jpg");
+background-image: url("homebg.jpg");
 	background-size: cover;
 	background-position: center;
-	float:left;
-
+	background-attachment: fixed;
+	margin: 10px auto ;
+	width: 72%
 }
 .header {
 	background-color: #D0D5F7;
 	opacity: 0.92;
 	text-align: left;
 	height: 80%;
-	width: 72%;
 	font-family: "Lucida Handwriting";
 	font-size: 40px;
 	align-items: center;
@@ -24,7 +24,6 @@ body{
 	background-color: #333;;
 	opacity: 0.99;
 	margin: 0 auto;
-	width: 72%;
 	height: 80%;
 	padding: 0px 5px;
 	color: #4B0082;
@@ -57,15 +56,14 @@ li a:hover:not(.active) {
 }
 .active {
   background-color: #000000;
-
 }
+
 .body { 
 	background-color: #D0D5F7;
 	margin: 75px auto 30px auto;
 	padding: 50px 5px 150px 5px;
 	opacity: 0.92;
-	height: 130%;
-	width: 72%;	
+	height: 130%;	
 }
  .container {
  	display: flex;
@@ -92,4 +90,3 @@ img {
 	width: 320px;
 	height: 300px;
 }
-
