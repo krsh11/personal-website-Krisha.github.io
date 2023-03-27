@@ -23,7 +23,7 @@ body{
 }
 
 .navbar {
-	background-color: #333;;
+	background-color: #333;
 	opacity: 0.99;
 	margin: 0 auto;
 	height: 80%;
@@ -61,27 +61,99 @@ li a:hover:not(.active) {
   background-color: #000000;
 
 }
+footer {
+	background-color: #D0D5F7;
+	opacity: 0.92;
+	text-align: center;
+	height: 50%;
+	font-family: "Lucida Handwriting";
+	font-size: 18px;
+	margin-top: 75px;
+	padding: 20px;
+	color: #4B0082;
+}
 
 .experience { 
 	background-color: #D0D5F7;
 	margin: 75px auto 30px auto;
 	padding: 50px 5px 100px 10px;
-	opacity: 0.92;
+	opacity: 0.97;
 	height: 200%;
+	font-family: "Lucida Handwriting";
 	
 }
 
 .jobs {
-	margin: 0px 0px 0px 10px;
-	font-family: "Lucida Handwriting";
+	margin: 0px 0px 0px 50px;
 	font-size: 15px;
 	padding: 10px 0px 10px 50px;
 }
 
 .duties {
 	background-color: #D0D5F7;
-	display: block;
-	padding: 10px 0px 10px 50px;
-	
 } 
 
+h4 {
+	padding-left: 50px;
+}
+h2 {
+	padding-left: 50px;
+}
+h5 {
+	padding-left: 50px;
+}
+
+.duties li {
+	float: left;
+	padding-left: 30px;
+}
+
+.fa-desktop {
+  margin-right: 18px;
+  font-size: 0.9em;
+}
+
+.fa-hospital-o {
+  margin-right: 18px;
+  font-size: 0.9em;
+}
+
+.fa-plus-square {
+  margin-right: 18px;
+  font-size: 0.9em;
+}
+
+
+.vl {
+  height:160px;
+  float: left;
+  color: #333;
+  margin-left: 8px;
+  border-left: 8px solid;
+  position: static;
+  left: 80%;
+}
+
+.vl1 {
+  height:120px;
+  float: left;
+  color: #333;
+  margin-left: 8px;
+  border-left: 8px solid;
+  position: static;
+  left: 80%;
+}
+
+.vl2 {
+  height:140px;
+  float: left;
+  color: #333;
+  margin-left: 8px;
+  border-left: 8px solid;
+  position: static;
+  left: 80%;
+}
+
+h3, h4, h5{
+	line-height: 0.2;
+}

@@ -25,7 +25,7 @@ background-image: url("homebg.jpg");
 	opacity: 0.99;
 	margin: 0 auto;
 	height: 80%;
-	padding: 0px 5px;
+	padding: 0px 10px;
 	color: #4B0082;
 	font-family: "Lucida Handwriting";
 	font-size: 20px;
@@ -59,7 +59,7 @@ li a:hover:not(.active) {
 }
 
 .body { 
-	background-color: #D0D5F7;
+	background-color: rgba(208, 213, 247, 0.92);
 	margin: 75px auto 30px auto;
 	padding: 50px 5px 150px 5px;
 	opacity: 0.92;
@@ -68,6 +68,20 @@ li a:hover:not(.active) {
  .container {
  	display: flex;
  }
+ 
+ /*footer*/
+
+footer {
+	background-color: #D0D5F7;
+	opacity: 0.92;
+	text-align: center;
+	height: 50%;
+	font-family: "Lucida Handwriting";
+	font-size: 18px;
+	margin-top: 75px;
+	padding: 20px;
+	color: #4B0082;
+}
 
 h3 {
 

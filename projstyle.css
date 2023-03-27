@@ -60,6 +60,17 @@ li a:hover:not(.active) {
   background-color: #000000;
 
 }
+footer {
+	background-color: #D0D5F7;
+	opacity: 0.92;
+	text-align: center;
+	height: 50%;
+	font-family: "Lucida Handwriting";
+	font-size: 18px;
+	margin-top: 75px;
+	padding: 20px;
+	color: #4B0082;
+}
 
 .projects{ 
 	background-color: #D0D5F7;
@@ -78,4 +89,7 @@ li a:hover:not(.active) {
 
 .projects li {
 	float: left;
+}
+h3, h4, h5 {
+	line-height: 0.2;
 }
