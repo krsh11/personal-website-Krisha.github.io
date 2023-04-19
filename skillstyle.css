@@ -79,4 +79,11 @@ section {
 	height: 200%;
 	font-family: "Lucida Handwriting";
 	font-size: 18px;
+	display: flex;
+}
+
+section div {
+	padding-right: 25px;
+	margin-left: auto;
+	margin-right: auto;
 }

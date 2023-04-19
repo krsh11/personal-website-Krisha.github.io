@@ -33,7 +33,7 @@ body{
 	
 }
 
-ul {
+.navbar ul {
   margin: 0 auto;
   padding: 0px 20px;
   list-style-type: none;
@@ -41,7 +41,7 @@ ul {
   background-color: #333;
 }
 
-li {
+.navbar li {
 	float: right;
 }
 
@@ -73,23 +73,75 @@ footer {
 }
 
 .projects{ 
-	background-color: #D0D5F7;
+	background-color: rgba(208, 213, 247, 0.92);
 	margin: 75px auto 30px auto;
-	padding: 50px 5px 100px 50px;
-	opacity: 0.92;
+	padding: 50px 30px 100px 30px;
 	height: 200%;
-	font-family: "Lucida Handwriting";
+	font-family: "Arial";
 	font-size: 18px;
+  align-content: center;
 }
 
-.projects ul {
-	background-color: #D0D5F7;
-	
+.project-flex {
+		display: flex;
+
 }
 
-.projects li {
-	float: left;
+.left{
+	display: inline-block;
+	margin-bottom: 20px;
+	margin-left: auto;
+    
 }
-h3, h4, h5 {
-	line-height: 0.2;
+
+.right {
+	display: inline-block;
+	margin-right: auto;
+}
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  padding: 18px;
+  width: 100%;
+  text-align: center;
+  font-size: 15px;
+  display: flex;
+
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.info {
+  overflow: hidden ;
+  display: none;
+  background-color: #f1f1f1;
+  padding: 0px 10px 0px 10px;
+
+}
+
+.left{
+	padding-right: 10px;
+	display: block;
+}
+
+.right {
+	padding-left: 10px;
+	display: block;
+}
+
+h4, h5 {
+	line-height: 0.2px;
+}
+
+.images {
+	display: inline-flex;
+}
+
+img {
+	width: 500px;
+	height: 300px;
+	padding-top: 20px;
 }

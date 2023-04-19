@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
 <title>Personal Website</title>
+
 </head>
 <!-- body of project page -->
 <body>
@@ -26,48 +27,101 @@
 
 	<section class = "projects">
 		<h1>Projects</h1>
-		<div class = "mpca">
-			<h3>Month Project Analysis Form Application</h3>
-			<h4>Lead Developer</h4>
-			<h5>January 2023 – March 2023</h5>
-			<ul>
-				<li>Worked in a with a team of 5 members and developed and application within 10 weeks.</li>
-				<li>Designed wireframe and prototypes according to the client’s requests.</li>
-				<li>Led the development of the application using C#, SQL, Windows Form, MSSQL Server and VS Code.</li>
-				<li>Developed an app that increases work efficiency and saves the client’s company some money.</li>
-			</ul>
+		<div class="project-flex">
+			<div class = "left">
+				<div class = "lside">
+					<img src="MPCA.jpg">
+					<button type="button" class="collapsible"><h3>Month Project Analysis Form Application</h3></button>
+					<div class = "info">
+						<h4>Lead Developer</h4>
+						<h5>January 2023 – March 2023</h5>
+						Project Link:<a href="https://github.com/krsh11/Lease-Crutcher-Lewis-App-Allies_5"> https://github.com/krsh11/Lease-Crutcher-Lewis-App-Allies_5</a>
+						<p> Led the developement of a desktop application 
+						    to calculate the cost variance of a specific 
+					        project of the company, adds new data, and reads 
+						    old data from the data server. <br>
+						    Used C#, SQL, Visual Studio Code, .Net Framework
+						    and Microsoft SQL Server. <br>
+						    Implemented Agile methodology and software development
+						    life cycle while developing the project.<br>
+						  </p>
+					</div>
+				</div>
+
+				<div class = "lside">
+					<img src="dunzo.jpg">
+					<button type="button" class="collapsible"><h3>Double Down and SlinkiThink Websites</h3></button>
+					
+					<div class = "info">
+						<h4>Lead Technical Writer and Developer</h4>
+						<h5>April 2022 - March 2022</h5>
+						Project Links:<a href="https://micham28.github.io/DUNZO.github.io/showmik"> Slinkithink</a> <a href="https://micham28.github.io/DoubleDown/Barinder-Home "> Double Down </a>
+						<p>
+							Developed two fully functioning website prototypes for the clients. 
+							One of the projects is a fundraising website where people can sign-up and donate money to their chosen charity within the area, and the other one is a website for productivity. 
+							Used HTML, CSS, JavaScript and Sublime Text.
+						</p>
+					</div>
+				</div>
+
+				
+			</div>
+
+			<div class="right">
+				<div class = "rside">
+					<img src="meadery.jpg">
+					<button type="button" class="collapsible"><h3>Honeysuckle Meadery Website Redesign</h3></button>
+					<div class = "info">
+						<h4>Lead Technical Writer and Developer</h4>
+						<h5>April 2022 - March 2022</h5>
+						Project Link:<a href="https://akl032.wixsite.com/my-site"> https://akl032.wixsite.com/my-site</a>
+						<p>
+							The project is to redesign and expand the existing
+							website into a functioning multipage online store,
+							and implement an inventory management system.<br>
+							Utilized flowchart and prototyping tools such as 
+							LucidChart and WireFrame to initialize the design. <br>
+							Used C#, Excel, WiX Website, Agile methodology
+							and SDLC in completing the project.
+						</p>
+					</div>
+				</div>
+				
+				<div class = "rside">
+					<img src="prototype.jpg">
+					<button type="button" class="collapsible"><h3>UX Design: Romantica Galactica</h3>
+					</button>
+					
+					<div class = "info">
+						<h4>Team member</h4>
+						<h5>September 2021 - December 2021</h5>
+						Project Links:<a href="https://wireframe.cc/pro/pp/c9dc72e0c498869"> Romantica Galactica</a>
+						<p>
+							The project is to create a prototype that can be use in our current situation (during Pandemic). My team decided to create a dating app prototype as a way to socialize since in-person meetings are limited. 
+							Applied the different stages of UX design and utitlized Wireframe for prototyping.  
+						</p>
+					</div>
+				</div>
+			</div> 
 		</div>
-		<div class = "honeysuckle">
-			<h3>Honeysuckle Meadery Website Redesign</h3>
-			<h4>Lead Technical Writer and Developer</h4>
-			<h5>April 2022 - March 2022</h5>
-			<ul>
-				<li>Created flowchart and prototypes using LucidChart and WireFrame, and project portfolio.</li>
-				<li>Rebuilt entire website that increased profit as customers can conveniently order online.</li>
-				<li>Helped the developer implement inventory management system using C# that improved the internal operation.</li>
-			</ul>
-		</div>
-		<div class = "websites">
-			<h3>Double Down and SlinkiThink Websites</h3>
-			<h4>Co-developer</h4>
-			<h5>January 2022 - March 2022</h5>
-			<ul>
-				<li>Collaborated with the team of 4 members to ensure the project was delivered on time. </li>
-				<li>Communicated with the clients regularly to inform the team’s progress for the websites.</li>
-				<li>Developed two websites according to the clients’ request using HTML, CSS and JavaScript. </li>
-			</ul>
-		</div>
-		<div>
-			<h3>UX Design: Romantica Galactica</h3>
-			<h4>Team member</h4>
-			<h5>September 2021 - December 2021</h5>
-			<ul>
-				<li>Applied the stages of UX design while making the project.</li>
-				<li>Used Wireframe for the project prototype and performed 1:1 interviews and observations</li>
-				<li>Worked in a with a team of 4 members and made a project documentation using Google docs and Google slides.</li>
-			</ul>
-		</div>
-	</section>
+		
+	<script>
+		var coll = document.getElementsByClassName("collapsible");
+		var i;
+
+		for (i = 0; i < coll.length; i++) {
+		  coll[i].addEventListener("click", function() {
+		    this.classList.toggle("active");
+		    var content = this.nextElementSibling;
+		    if (content.style.display === "block") {
+		      content.style.display = "none";
+		    } else {
+		      content.style.display = "block";
+		    }
+		  });
+		}
+	</script>
+</section>
 
 <footer class ="footer">
 	© 2023 Krisha Nisperos
